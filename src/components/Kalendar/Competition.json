@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "date": "25.05.2023",
+    "time": "10.00",
+    "title": "Детский мастер-класс",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+    "image": "/foto/placeholder.png"
+  },
+  {
+    "id": 2,
+    "date": "25.05.2023",
+    "time": "19.00",
+    "title": "Джазовый концерт",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+    "image": "/foto/placeholder.png"
+  },
+  {
+    "id": 3,
+    "date": "15.05.2023",
+    "time": "21.00",
+    "title": "Дискотека",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+    "image": "/foto/placeholder.png"
+  },
+  {
+    "id": 4,
+    "date": "10.05.2023",
+    "time": "11.00",
+    "title": "Мастер-класс по лепке",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+    "image": "/foto/placeholder.png"
+  },
+  {
+    "id": 5,
+    "date": "10.05.2023",
+    "time": "14.00",
+    "title": "Детский утренник",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+    "image": "/foto/placeholder.png"
+  }
+]
