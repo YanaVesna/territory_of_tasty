@@ -8,7 +8,10 @@ import Greenline from "../Greenline";
 
 export default function Kalendar(props) {
   const [value, onChange] = useState(new Date());
-  let [state, setState] = useState(false);
+
+  function newArray(i) {
+    return competition.filter((el) => el.date === i.toLocaleDateString());
+  }
 
   return (
     <div className="kalendar">
@@ -17,15 +20,23 @@ export default function Kalendar(props) {
         <Calendar
           value={value}
           onChange={onChange}
-          onClickDay={() => {
-            let newDate = value.toLocaleDateString();
-          }}
+          /* onClickDay={value.toLocaleDateString()} */
         />
+
         <div className="kalendar__competition__block">
           <div className="kalendar__competition__block__cart">
-            {competition.map((obj) => (
-              <CartKalendar key={obj.id} {...obj} />
-            ))}
+            {newArray(value).length !== 0 ? (
+              newArray(value).map((obj) => (
+                <CartKalendar key={obj.id} {...obj} />
+              ))
+            ) : (
+              <div className="kalendar__competition__block__cart__empty">
+                <p>
+                  К сожалению, в эту дату ничего не запланировано. Выберайте
+                  зеленые даты
+                </p>
+              </div>
+            )}
           </div>
           <div className="kalendar__competition__block__link">
             <a href="@">

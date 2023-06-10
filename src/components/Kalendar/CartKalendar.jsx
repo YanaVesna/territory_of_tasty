@@ -11,9 +11,17 @@ export default function CartKalendar({
   return (
     <div className="kalendar__competition__block__cart__box">
       <img src={image} alt="event" />
-      <span>{time}</span>
-      <span className="Alegrea18">{title}</span>
-      <span>{description}</span>
+      <div className="kalendar__competition__block__cart__box__text">
+        <div className="kalendar__competition__block__cart__box__text__span1">
+          {time}
+        </div>
+        <div className="Alegrea18">
+          <b>{title}</b>
+        </div>
+        <div className="kalendar__competition__block__cart__box__text__span2">
+          {description}
+        </div>
+      </div>
     </div>
   );
 }
