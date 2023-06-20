@@ -2,7 +2,7 @@
   "name": "territory_of_taste",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://YanaVesna.github.io/Git_Territory_of_tastys",
+  "homepage": "https://YanaVesna.github.io/territory_of_tasty",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
