@@ -43,8 +43,8 @@ export default function Slider() {
         );
       })}
       <div className="container-slider__textbox">
-        <h2>Соберите свою пиццу</h2>
-        <h3>Мы приготовим для Вас пиццу с вашими любимыми игридиентами</h3>
+        <h2>Stellen Sie Ihre Pizza zusammen</h2>
+        <h3>Wir bereiten für Sie Pizza mit Ihren Lieblingszutaten zu</h3>
         <ButtonOrder />
       </div>
 

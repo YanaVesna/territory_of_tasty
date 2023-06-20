@@ -1,20 +1,20 @@
 [
   {
-    "image": "/foto/desert1.png",
-    "title": "Шоколадный десерт с овсянкой",
-    "description": "Две мясных котлеты гриль, Специальный соус, сыр, Огурцы, салат и лук, Огурцы, салат и лук. Всё на булачке с кунжутом,",
-    "price": "2$"
+    "image": "https://i.ibb.co/sWtsMJP/desert1.png",
+    "title": "Schokoladendessert mit Haferflocken",
+    "description": "Zwei gegrillte Fleischbällchen, Spezialsauce, Käse, Gurken, Salat und Zwiebeln, Gurken, Salat und Zwiebeln. Alles auf einem Sesambrötchen",
+    "price": "2 €"
   },
   {
-    "image": "/foto/desert2.png",
-    "title": "Блинчики в малиной",
-    "description": "Две мясных котлеты гриль, Специальный соус, сыр, Огурцы, салат и лук, Огурцы, салат и лук. Всё на булачке с кунжутом,",
-    "price": "3$"
+    "image": "https://i.ibb.co/yQfjb12/desert2.png",
+    "title": "Pfannkuchen in Himbeeren",
+    "description": "Zwei gegrillte Fleischbällchen, Spezialsauce, Käse, Gurken, Salat und Zwiebeln, Gurken, Salat und Zwiebeln. Alles auf einem Brötchen mit Sesamkörnern",
+    "price": "3 €"
   },
   {
-    "image": "/foto/desert3.png",
-    "title": "Ягодный пломбир ",
-    "description": "Две мясных котлеты гриль, Специальный соус, сыр, Огурцы, салат и лук, Огурцы, салат и лук. Всё на булачке с кунжутом,",
-    "price": "5$"
+    "image": "https://i.ibb.co/vCNQq59/desert3.png",
+    "title": "Beereneis",
+    "description": "Zwei gegrillte Fleischbällchen, Spezialsauce, Käse, Gurken, Salat und Zwiebeln, Gurken, Salat und Zwiebeln. Alles auf einem Brötchen mit Sesamkörnern",
+    "price": "5 €"
   }
 ]

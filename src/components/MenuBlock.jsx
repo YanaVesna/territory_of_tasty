@@ -9,17 +9,17 @@ function MenuBlock() {
         <ul>
           <li>
             <a href="#">
-              <img src={Menu_link} alt="menu" />
+              <img src="https://i.ibb.co/9cxp3m8/menu-link.png" alt="menu" />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src={Herz} alt="Herz" />
+              <img src="https://i.ibb.co/nDjXpxj/herz.png" alt="Herz" />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src={Basket} alt="Basket" />
+              <img src="https://i.ibb.co/19tyDqw/basket.png" alt="Basket" />
             </a>
           </li>
         </ul>

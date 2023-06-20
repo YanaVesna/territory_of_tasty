@@ -8,7 +8,7 @@ export default function Reviews({ title }) {
   return (
     <div className="Reviews">
       <div className="container">
-        <Greenline title="Review" />
+        <Greenline title="Rezension" />
         <div className="Reviews__box">
           {ReviewList.map((obj) => (
             <ReviewCard key={obj.nickName} {...obj} />

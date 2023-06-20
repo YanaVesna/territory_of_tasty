@@ -5,7 +5,7 @@ import DesertsCard from "../components/DesertsCard";
 
 function Recomendations() {
   return (
-    <div className="Recomendations">
+    <div className="Empfehlungen">
       {RecomendationsList.map((obj) => (
         <DesertsCard key={obj.title} {...obj} />
       ))}

@@ -11,19 +11,19 @@ function Header() {
             Pizza
           </Link>
           <Link to="#" className="header__presentation__buttons__links">
-            Roll
+            Rollen
           </Link>
           <Link to="#" className="header__presentation__buttons__links">
-            Bisness-lanch
+            Unternehmensgründung
           </Link>
           <Link to="#" className="header__presentation__buttons__links">
             Snacks
           </Link>
           <Link to="/deserts" className="header__presentation__buttons__links">
-            Desserts
+            Nachspeisen
           </Link>
           <Link to="#" className="header__presentation__buttons__links">
-            Drinks
+            Getränke
           </Link>
         </div>
       </div>

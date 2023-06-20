@@ -7,7 +7,7 @@ export default function Contacts() {
   return (
     <div className="contacts">
       <div className="container">
-        <Greenline title="Contacts" />
+        <Greenline title="Kontakte" />
         <div className="contacts__boxform">
           <div className="contacts__form">
             <div className="contacts__form__links">

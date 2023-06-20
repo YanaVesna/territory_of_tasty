@@ -32,15 +32,15 @@ export default function Kalendar(props) {
             ) : (
               <div className="kalendar__competition__block__cart__empty">
                 <p>
-                  К сожалению, в эту дату ничего не запланировано. Выберайте
-                  зеленые даты
+                  Für diesen Termin ist leider nichts geplant. Wählen grüne
+                  Datteln
                 </p>
               </div>
             )}
           </div>
           <div className="kalendar__competition__block__link">
             <a href="@">
-              <em>Все ближайшие события</em>
+              <em>Alle kommenden Veranstaltungen</em>
             </a>
             <img src={Link} alt="the next competitions" />
           </div>

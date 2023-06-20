@@ -9,74 +9,74 @@ const WOK = (props) => {
 
   const fillingsPrice = [
     {
-      title: "Shrimp tiger",
+      title: "Garnelentiger",
       price: 5,
     },
     {
-      title: "Beef",
+      title: "Rindfleisch",
       price: 6,
     },
     {
-      title: "Pork",
+      title: "Schweinefleisch",
       price: 3,
     },
     {
-      title: "Chick",
+      title: "Küken",
       price: 4,
     },
     {
-      title: "Salmon",
+      title: "Lachs",
       price: 8,
     },
     {
-      title: "Bacon",
+      title: "Speck",
       price: 2.5,
     },
   ];
 
   const toppinkePrice = [
     {
-      title: "Cherry tomatoes",
+      title: "Kirschtomaten",
       price: 2,
     },
     {
-      title: "Cheese",
+      title: "Käse",
       price: 3,
     },
     {
-      title: "Beans",
+      title: "Bohnen",
       price: 3,
     },
     {
-      title: "Corn",
+      title: "Mais",
       price: 1.5,
     },
     {
-      title: "Sesame",
+      title: "Sesam",
       price: 0.5,
     },
     {
-      title: "Pineapples",
+      title: "Ananas",
       price: 3,
     },
     {
-      title: "Champignon mushrooms",
+      title: "Champignons",
       price: 8,
     },
     {
-      title: "Shiitake mushrooms",
+      title: "Shiitake Pilze",
       price: 7,
     },
     {
-      title: "Eggs",
+      title: "Eier",
       price: 4,
     },
     {
-      title: "Onion",
+      title: "Zwiebel",
       price: 1,
     },
     {
-      title: "Bulgarian pepper",
+      title: "Bulgarischer Pfeffer",
       price: 2.5,
     },
   ];
@@ -85,7 +85,7 @@ const WOK = (props) => {
     <div className="to-color-black">
       <div className="container">
         <div className="WOK">
-          <h2>Collect your WOK</h2>
+          <h2>Sammeln Sie Ihre WOK</h2>
           <div className="WOK__collect">
             <div className="WOK__collect__images">
               <div className="WOK__collect__images__pfan">
@@ -112,7 +112,7 @@ const WOK = (props) => {
                   })}
                 </div>
                 <div className="WOK__collect__images__sauce">
-                  <span>Sauce</span>
+                  <span>Soße</span>
                   <div className="WOK__collect__images__sauce__sauces">
                     {sauces.map((obj, index) => {
                       return (
@@ -137,7 +137,7 @@ const WOK = (props) => {
             <div className="WOK__collect__filling">
               <div className="WOK__collect__filling__left">
                 <div className="WOK__collect__filling__left__list">
-                  <span>Filling:</span>
+                  <span>Füllung:</span>
                   {fillingsPrice.map((obj) => (
                     <Fillings key={obj.title} {...obj} />
                   ))}
@@ -155,7 +155,7 @@ const WOK = (props) => {
           </div>
           <div className="WOK__result"></div>
         </div>
-        <h3>Recommended for your order</h3>
+        <h3>Empfohlen für Ihre Bestellung</h3>
         <Recomendations />
       </div>
     </div>

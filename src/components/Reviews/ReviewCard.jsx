@@ -1,5 +1,4 @@
 import React from "react";
-import Rating from "../../assets/img/rating.png";
 
 export default function ReviewCard({ nickName, date, rating, description }) {
   return (
@@ -9,7 +8,7 @@ export default function ReviewCard({ nickName, date, rating, description }) {
         <p>{date}</p>
       </div>
       <div className="review-card__description">
-        <img src={Rating} alt="stars" />
+        <img src="https://i.ibb.co/KbRW6xw/rating.png" alt="stars" />
         <div className="review-card__description__scroll">
           <p>{description}</p>
         </div>

@@ -8,22 +8,22 @@ function Footer() {
       </div>
       <div className="footer__buttons">
         <a href="#" className="footer__buttons__links">
-          About us
+          Über uns
         </a>
         <a href="#" className="footer__buttons__links">
-          Meneu
+          Menü
         </a>
         <a href="#" className="footer__buttons__links">
-          Delivery
+          Lieferung
         </a>
         <a href="#" className="footer__buttons__links">
-          Payment
+          Zahlung
         </a>
         <a href="#" className="footer__buttons__links">
           Franchise
         </a>
         <a href="#" className="footer__buttons__links">
-          Vacancies
+          Stellenangebote
         </a>
       </div>
       <div className="footer__linie"></div>

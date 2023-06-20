@@ -9,7 +9,6 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { Routes, Route } from "react-router-dom";
 
-//gggg
 function App() {
   return (
     <div className="wrapper">
@@ -18,7 +17,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/deserts" element={<DesertsAll />} />
         <Route path="/WOK" element={<WOK />} />
-        <Route path="*" element={<NotFound />} />
+        <Route path="*" element={<Home />} />
       </Routes>
       <Footer />
     </div>
