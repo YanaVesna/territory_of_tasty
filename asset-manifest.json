@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/territory_of_tasty/static/css/main.3a97fc80.css",
-    "main.js": "/territory_of_tasty/static/js/main.9275b4fc.js",
+    "main.css": "/territory_of_tasty/static/css/main.e5a49ce7.css",
+    "main.js": "/territory_of_tasty/static/js/main.827795fc.js",
     "static/media/salad2.jpg": "/territory_of_tasty/static/media/salad2.8f174400702f38490c11.jpg",
     "static/media/lanch.png": "/territory_of_tasty/static/media/lanch.444b472ac40787123305.png",
     "index.html": "/territory_of_tasty/index.html",
     "static/media/Logo.svg": "/territory_of_tasty/static/media/Logo.d9534aa4e3dc68643867c472e6e791b3.svg",
-    "main.3a97fc80.css.map": "/territory_of_tasty/static/css/main.3a97fc80.css.map",
-    "main.9275b4fc.js.map": "/territory_of_tasty/static/js/main.9275b4fc.js.map"
+    "main.e5a49ce7.css.map": "/territory_of_tasty/static/css/main.e5a49ce7.css.map",
+    "main.827795fc.js.map": "/territory_of_tasty/static/js/main.827795fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a97fc80.css",
-    "static/js/main.9275b4fc.js"
+    "static/css/main.e5a49ce7.css",
+    "static/js/main.827795fc.js"
   ]
 }
